@@ -108,6 +108,9 @@ body {
     color: #e4e4e4;
 }
 
+
+
+
 .container {
     position: absolute;
     top: 50%;
@@ -176,13 +179,13 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    width: calc(100% - 58%);
+    width: calc(100% - 58% );
     height: 100%;
-
 }
 
+ 
 
-.logreg-box .form-box {
+.logreg-box  .form-box {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -196,12 +199,12 @@ body {
     color: #e4e4e4;
 }
 
-.logreg-box .form-box.login {
+.logreg-box  .form-box.login {
     transform: translateX(0);
     transition: transform .6s ease;
 }
   
-.logreg-box.active .form-box.login {
+.logreg-box.active  .form-box.login {
     transform: translateX(430px);
    transition-delay: 0s;
 }
